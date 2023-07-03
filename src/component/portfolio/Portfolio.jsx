@@ -15,6 +15,7 @@ import "./Portfolio.css";
 // import required modules
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import Project from "../singleProject/Project";
+import { Slide } from "react-awesome-reveal";
 
 // import img from "../../assets/IMG_20220503_161831_1.jpg";
 const projectInfo = [
@@ -64,52 +65,56 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="md:h-[100vh] md:snap-center section lg:px-10 py-3"
+      className="grid grid-cols-1 justify-center items-center md:h-[100vh] md:snap-center section lg:px-10 py-3 md:pb-16"
     >
-      <SectionTitle>Portfolio</SectionTitle>
+      <div>
+        <SectionTitle>Portfolio</SectionTitle>
 
-      {/* swiper  */}
-      <div className="flex flex-col md:flex-row items-center overflow-hidden">
-        <div className="mx-auto w-full">
-          <Swiper
-            effect={"coverflow"}
-            grabCursor={true}
-            centeredSlides={true}
-            // loop={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 0,
-              stretch: 0,
-              depth: 100,
-              modifier: 2.5,
-            }}
-            pagination={{ el: ".swiper-pagination", clickable: true }}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-              clickable: true,
-            }}
-            modules={[EffectCoverflow, Pagination, Navigation]}
-            className="swiper_container"
-          >
-            {projectInfo.map((project, index) => (
-              <SwiperSlide key={index}>
-                <Project projectInfo={project} />
-              </SwiperSlide>
-            ))}
+        {/* swiper  */}
+        <Slide direction="up" triggerOnce>
+          <div className="flex flex-col md:flex-row items-center overflow-hidden">
+            <div className="mx-auto w-full">
+              <Swiper
+                effect={"coverflow"}
+                grabCursor={true}
+                centeredSlides={true}
+                // loop={true}
+                slidesPerView={"auto"}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 2.5,
+                }}
+                pagination={{ el: ".swiper-pagination", clickable: true }}
+                navigation={{
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                  clickable: true,
+                }}
+                modules={[EffectCoverflow, Pagination, Navigation]}
+                className="swiper_container"
+              >
+                {projectInfo.map((project, index) => (
+                  <SwiperSlide key={index}>
+                    <Project projectInfo={project} />
+                  </SwiperSlide>
+                ))}
 
-            {/* new  */}
-            <div className="slider-controler relative bottom-[-30px] z-30 mx-[50px] md:mx-[240px] lg:mx-[320px] ">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow ">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
+                {/* new  */}
+                <div className="slider-controler relative bottom-[-30px] z-30 mx-[50px] pad">
+                  <div className="swiper-button-prev slider-arrow">
+                    <ion-icon name="arrow-back-outline "></ion-icon>
+                  </div>
+                  <div className="swiper-button-next slider-arrow ">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                  </div>
+                </div>
+                <div className="swiper-pagination"></div>
+              </Swiper>
             </div>
-            <div className="swiper-pagination"></div>
-          </Swiper>
-        </div>
+          </div>
+        </Slide>
       </div>
     </section>
   );

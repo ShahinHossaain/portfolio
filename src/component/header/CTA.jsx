@@ -6,7 +6,7 @@ const CTA = () => {
       <a href={resume} download>
         <button className="btn1"> Download Resume</button>
       </a>
-      <a>
+      <a href="#contact">
         <button className="btn2 ml-5">Lets Talk</button>
       </a>
     </div>

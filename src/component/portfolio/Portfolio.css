@@ -20,3 +20,14 @@
     width: 300px;
   }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .pad {
+    margin: 40px 200px 0 200px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .pad {
+    margin: 0 380px 0 380px;
+  }
+}
