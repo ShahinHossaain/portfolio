@@ -33,6 +33,7 @@ const Contact = () => {
           setIsLoading(false);
           success();
           form.current.reset();
+          console.log(result);
         },
         (error) => {
           setIsLoading(false);
