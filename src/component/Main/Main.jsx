@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import About from "../about/About";
+import About from "../About/About";
 import Header from "../header/Header";
 import Experience from "../Experience/Experience";
 import Services from "../services/Services";
