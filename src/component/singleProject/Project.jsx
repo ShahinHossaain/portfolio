@@ -11,7 +11,6 @@ import "./Project.css";
 //   live: ""
 // }
 const Project = ({ projectInfo }) => {
-  console.log(projectInfo);
   const { img, projectName, aboutProject, client, server, live } = projectInfo;
   return (
     <div className="card w-full h-[440px] bg-primary rounded-3xl backdrop-blur-sm hover:bg-opacity-40 bg-opacity-30 shadow-xl cursor-pointer">
@@ -28,7 +27,7 @@ const Project = ({ projectInfo }) => {
           {aboutProject}
         </p>
         <div className="card-actions justify-start">
-          <button class="button-23 hover:scale-110" role="button">
+          <button className="button-23 hover:scale-110" role="button">
             <a href={client} target="blank">
               Client
             </a>

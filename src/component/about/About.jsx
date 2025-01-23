@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "../sectionTitle/SectionTitle";
-import me from "../../assets/IMG_20220503_161831_1.jpg";
+import me from "../../assets/profilePic2.png";
 import { FaAward } from "react-icons/fa";
 import { BsPatchQuestionFill } from "react-icons/bs";
 import { GoProjectSymlink } from "react-icons/go";
@@ -42,7 +42,7 @@ const About = () => {
                     <FaAward />
                   </span>
                   <p className="font-semibold">Experience</p>
-                  <p className="text-xs">6 Month +</p>
+                  <p className="text-xs">9 Month +</p>
                 </div>
               </Slide>
               <Slide triggerOnce direction="left" delay={200}>
@@ -66,12 +66,11 @@ const About = () => {
             </div>
 
             <p className="my-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae delectus, laudantium repellendus quasi quisquam, dicta
-              illum eaque voluptates iusto quidem accusantium vel culpa
-              assumenda aliquid! Ut iure dicta illo molestias consectetur! Odit
-              quae vero voluptates beatae aut dolorum obcaecati aspernatur
-              repellat delectus asperiores iste in autem sunt, harum quos! In.
+              Hello, I am Md. Shahin Hossain, a dedicated web developer with a passion for crafting digital experiences. I have always been drawn to the world of technology and design, and that led me to pursue a career in web development.
+
+              I specialize in creating visually appealing and user-friendly websites that not only meet but exceed expectations. I believe in the power of clean code, responsive design, and accessibility to make the web a better place for everyone.
+
+              When I am not coding, you will often find me exploring the latest web development trends, experimenting with new technologies, or simply enjoying a good cup of coffee. I am committed to turning your ideas into reality, so lets collaborate and bring your web projects to life.
             </p>
             <div className="text-center md:text-left">
               <button className="btn2">

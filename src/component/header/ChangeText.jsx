@@ -7,7 +7,6 @@ const ChangeText = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
 
   const [index, setIndex] = useState(1);
-  console.log(index);
   const toRotate = ["Web_Developer", "MERN_Developer", "Experts_In_React"];
   const period = 2000;
 

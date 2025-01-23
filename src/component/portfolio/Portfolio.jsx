@@ -55,12 +55,30 @@ const projectInfo = [
 
     client: "https://github.com/ShahinHossaain/dish-detective-pro",
     server: "https://github.com/ShahinHossaain/dish-detective-pro-server",
-    live: "https://celebrated-florentine-be189b.netlify.app",
+    live: "https://650c7dc5cabb6e1bd0453267--imaginative-crumble-075739.netlify.app/",
   },
+  {
+    img: "https://i.ibb.co/Phdxg01/Screenshot-2023-09-21-234041.png",
+    projectName: "Job Hunter",
+    aboutProject:
+      "Job Hunter is demo website where users can apply their suitable jobs. They can choose their job according to their choice.",
+
+    client: "https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-ShahinHossaain",
+    live: "https://mellifluous-bavarois-891671.netlify.app/",
+  },
+  {
+    img: "https://i.ibb.co/nsZQcKQ/Screenshot-2023-09-22-000606.png",
+    projectName: "Knowledge Home",
+    aboutProject:
+      "Knowledge Home is demo website where users can bookmark any article which he/she want to read.",
+
+    client: "https://github.com/Porgramming-Hero-web-course/b7a8-knowledge-cafe-ShahinHossaain",
+    live: "https://fabulous-paletas-3b5829.netlify.app/",
+  },
+
 ];
 
 // const { img, projectName, aboutProject, client, server, live } = projectInfo[0];
-console.log(projectInfo);
 const Portfolio = () => {
   return (
     <section

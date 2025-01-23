@@ -30,13 +30,11 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           setIsLoading(false);
           success();
           form.current.reset();
         },
         (error) => {
-          console.log(error.text);
           setIsLoading(false);
           errorr();
         }

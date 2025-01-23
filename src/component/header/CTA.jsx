@@ -1,5 +1,6 @@
 import React from "react";
-import resume from "../../assets/Resume (1).pdf";
+// import resume from "../../assets/Resume (1).pdf";
+import resume from "../../assets/Resume (2).pdf";
 const CTA = () => {
   return (
     <div>

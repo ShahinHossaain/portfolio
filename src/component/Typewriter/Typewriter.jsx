@@ -24,7 +24,6 @@ const Typewriter = ({ text }) => {
 
     return () => clearTimeout(cursorTimeout);
   }, [showCursor]);
-  console.log(currentIndex, text.length);
 
   return (
     <p className="my-2 font-font3 font-thin">

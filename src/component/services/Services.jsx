@@ -17,41 +17,29 @@ const Services = () => {
                 UI/UX design
               </p>
               <ul className="mx-4 md:mx-6 lg:mx-8 py-4">
+
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Responsive Design: Ensuring websites work well on various devices and screen sizes.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Website Redesign: Updating and improving the design and functionality of existing websites.
                 </li>
+
+
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  UI/UX Design Collaboration: Collaborating with designers to implement user-friendly interfaces.
                 </li>
-                <li className="flex gap-2">
-                  <p className="text-lg text-primary">
-                    <BiCheck />
-                  </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
-                </li>
-                <li className="flex gap-2">
-                  <p className="text-lg text-primary">
-                    <BiCheck />
-                  </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
-                </li>
+
+
               </ul>
             </div>
             <div className="bg-primary backdrop-blur-sm hover:bg-opacity-40 bg-opacity-30 rounded-b-3xl border border-blue-400">
@@ -63,78 +51,50 @@ const Services = () => {
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Website Development: Building websites from scratch or working on existing projects.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Front-End Development: Creating user interfaces and experiences using HTML, CSS, JavaScript and React.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Testing and Debugging: Ensuring websites are error-free and work as expected.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Web Hosting and Deployment: Setting up and managing web hosting services and deploying websites.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Web Application Development: Developing web-based applications using technologies like React.
                 </li>
               </ul>
             </div>
             <div className="bg-primary backdrop-blur-sm hover:bg-opacity-40 bg-opacity-30 rounded-b-3xl border border-blue-400">
               <p className="bg-primary text-center py-5 rounded-b-3xl font-font3 font-medium text-lg">
-                Content Creation
+                Others
               </p>
               <ul className="mx-4 md:mx-6 lg:mx-8 py-4">
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  Client Training: Providing training to clients on how to manage and update their websites.
                 </li>
                 <li className="flex gap-2">
                   <p className="text-lg text-primary">
                     <BiCheck />
                   </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
-                </li>
-                <li className="flex gap-2">
-                  <p className="text-lg text-primary">
-                    <BiCheck />
-                  </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
-                </li>
-                <li className="flex gap-2">
-                  <p className="text-lg text-primary">
-                    <BiCheck />
-                  </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
-                </li>
-                <li className="flex gap-2">
-                  <p className="text-lg text-primary">
-                    <BiCheck />
-                  </p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis, illum.
+                  echnical Support: Providing technical assistance to clients for web-related issues.
                 </li>
               </ul>
             </div>

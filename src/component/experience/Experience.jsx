@@ -78,6 +78,15 @@ const Experience = () => {
                     <BsFillPatchCheckFill />
                   </p>
                   <div>
+                    <p className="text-xl font-medium font-font2">TypeScript and Story Book</p>
+                    <p className="text-sm mt-1">Intermediate</p>
+                  </div>
+                </div>
+                <div className="flex gap-2">
+                  <p className="mt-1 text-primary">
+                    <BsFillPatchCheckFill />
+                  </p>
+                  <div>
                     <p className="text-xl font-medium font-font2">Next JS</p>
                     <p className="text-sm mt-1">Basic</p>
                   </div>
@@ -118,15 +127,7 @@ const Experience = () => {
                     <p className="text-sm mt-1">Intermediate</p>
                   </div>
                 </div>
-                <div className="flex gap-2">
-                  <p className="mt-1 text-primary">
-                    <BsFillPatchCheckFill />
-                  </p>
-                  <div>
-                    <p className="text-xl font-medium font-font2">MySQL</p>
-                    <p className="text-sm mt-1">Basic</p>
-                  </div>
-                </div>
+
               </div>
             </div>
           </Slide>
