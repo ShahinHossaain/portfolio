@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import About from "../about/About";
 import Header from "../header/Header";
-import Experience from "../Experience/Experience";
+import Experience from "../experience/Experience";
 import Services from "../services/Services";
 import Portfolio from "../portfolio/Portfolio";
 import Contact from "../contact/Contact";
