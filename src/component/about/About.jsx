@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "../sectionTitle/SectionTitle";
-import me from "../../assets/IMG_20220503_161831_1.jpg";
+import me from "../../assets/profilePic2.png";
 import { FaAward } from "react-icons/fa";
 import { BsPatchQuestionFill } from "react-icons/bs";
 import { GoProjectSymlink } from "react-icons/go";
